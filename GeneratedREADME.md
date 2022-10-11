@@ -1,31 +1,45 @@
-# test
+# te
+
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
 
-lorem ipsum
+t
 
 ## Table of Contents
 
-- Installation
+- [Installation](./GeneratedREADME.md##Installation)
 
 - Usage
 
-- Credits
-
 - License
+
+- [Contributing](./GeneratedREADME.md##Contributing)
+
+- Tests
+
+- Questions
 
 ## Installation
 
-go to github
+f
 
 ## Usage
 
-pro readmes
-
-## Credits
-
-git, yt, node.js
+e
 
 ## License
 
-MIT license
+Licensed under the MIT license.
+
+## Contributing
+
+f
+
+## Tests
+
+k
+
+## Questions
+
+k

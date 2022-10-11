@@ -8,12 +8,12 @@ inquirer
     .prompt([
         {
             type: 'input',
-            message: 'What is the title of your repo?',
+            message: 'What is the title of your project?',
             name: 'repoName'
         },
         {
             type: 'input',
-            message: 'What is the description of your repo?',
+            message: 'What is the description of your project?',
             name: 'description'
         },
         {
@@ -23,7 +23,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'What are the steps required to install your repo?',
+            message: 'What are the steps required to install your project?',
             name: 'installation'
         },
         {
@@ -32,49 +32,67 @@ inquirer
             name: 'usage'
         },
         {
-            type: 'input',
-            message: 'List any credits for collaborators, third-party assets or tutorials followed.',
-            name: 'credits'
+            type: 'checkbox',
+            message: 'What type of license would you like the project to have applied?',
+            choices: ['Apache2.0', 'GPLv2', 'GPLv3', 'MIT', 'ISC'],
+            name: 'license'
         },
         {
             type: 'input',
-            message: 'What type of license would you like the repo to have applied?',
-            name: 'license'
+            message: 'What are the contirbution guidelines for the project?',
+            name: 'contribute'
+        },
+        {
+            type: 'input',
+            message: 'What are the test instructions for the project??',
+            name: 'test'
         }
     ])
     .then((response) =>
         response.tableConfirm == true ? 
         fs.writeFile('GeneratedREADME.md',
-            `# ${response.repoName}\n
+`# ${response.repoName}\n
+![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-blue.svg)\n
 ## Description\n
 ${response.description}\n
 ## Table of Contents\n
-- Installation\n
+- [Installation](./GeneratedREADME.md##Installation)\n
 - Usage\n
-- Credits\n
 - License\n
+- Contributing\n
+- Tests\n
+- Questions\n
 ## Installation\n
 ${response.installation}\n
 ## Usage\n
 ${response.usage}\n
-## Credits\n
-${response.credits}\n
 ## License\n
-${response.license}\n`,
+Licensed under the ${response.license} license.\n
+## Contributing\n
+${response.contribute}\n
+## Tests\n
+${response.test}\n
+## Questions\n
+${response.test}\n`,
             (err) => err ? console.error(err) : console.log('Readme Generated!'))
     :
         fs.writeFile('GeneratedREADME.md',
-            `# ${response.repoName}\n
+`# ${response.repoName}\n
+![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-blue.svg)\n
 ## Description\n
 ${response.description}\n
 ## Installation\n
 ${response.installation}\n
 ## Usage\n
 ${response.usage}\n
-## Credits\n
-${response.credits}\n
 ## License\n
-${response.license}\n`,
+Licensed under the ${response.license} license.\n
+## Contributing\n
+${response.contribute}\n
+## Tests\n
+${response.test}\n
+## Questions\n
+${response.test}\n`,
             (err) => err ? console.error(err) : console.log('Readme Generated!'))
     );
 
