@@ -8,13 +8,13 @@ t
 
 ## Table of Contents
 
-- [Installation](./GeneratedREADME.md##-installation)
+- [Installation](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#installation)
 
 - Usage
 
 - License
 
-- [Contributing](./GeneratedREADME.md##-contributing)
+- [Contributing](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#contributing)
 
 - Tests
 
