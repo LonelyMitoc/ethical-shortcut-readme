@@ -14,7 +14,7 @@ t
 
 - License
 
-- [Contributing](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#contributing)
+- [Contributing](./GeneratedREADME.md#contributing)
 
 - Tests
 

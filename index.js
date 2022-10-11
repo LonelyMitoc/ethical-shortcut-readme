@@ -46,6 +46,16 @@ inquirer
             type: 'input',
             message: 'What are the test instructions for the project??',
             name: 'test'
+        },
+        {
+            type: 'input',
+            message: 'What is your Github username?',
+            name: 'githubusername'
+        },
+        {
+            type: 'input',
+            message: 'What is your email for further questions?',
+            name: 'email'
         }
     ])
     .then((response) =>
@@ -56,12 +66,12 @@ inquirer
 ## Description\n
 ${response.description}\n
 ## Table of Contents\n
-- [Installation](./GeneratedREADME.md##Installation)\n
-- Usage\n
-- License\n
-- Contributing\n
-- Tests\n
-- Questions\n
+- [Installation](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#installation)\n
+- [Usage](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#usage)\n
+- [License](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#license)\n
+- [Contributing](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#contributing)\n
+- [Tests](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#tests)\n
+- [Questions](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#questions)\n
 ## Installation\n
 ${response.installation}\n
 ## Usage\n
@@ -73,7 +83,7 @@ ${response.contribute}\n
 ## Tests\n
 ${response.test}\n
 ## Questions\n
-${response.test}\n`,
+${response.githubusername}\n`,
             (err) => err ? console.error(err) : console.log('Readme Generated!'))
     :
         fs.writeFile('GeneratedREADME.md',
