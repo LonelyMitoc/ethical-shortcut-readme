@@ -60,18 +60,18 @@ inquirer
     ])
     .then((response) =>
         response.tableConfirm == true ? 
-        fs.writeFile('GeneratedREADME.md',
+        fs.writeFile('proREADME.md',
 `# ${response.repoName}\n
 ![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-blue.svg)\n
 ## Description\n
 ${response.description}\n
 ## Table of Contents\n
-- [Installation](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#installation)\n
-- [Usage](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#usage)\n
-- [License](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#license)\n
-- [Contributing](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#contributing)\n
-- [Tests](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#tests)\n
-- [Questions](https://github.com/LonelyMitoc/ethical-shortcut-readme/blob/main/GeneratedREADME.md#questions)\n
+- [Installation](./proREADME.md#installation)\n
+- [Usage](./proREADME.md#usage)\n
+- [License](./proREADME.md#license)\n
+- [Contributing](./proREADME.md#contributing)\n
+- [Tests](./proREADME.md#tests)\n
+- [Questions](./proREADME.md#questions)\n
 ## Installation\n
 ${response.installation}\n
 ## Usage\n
@@ -83,7 +83,9 @@ ${response.contribute}\n
 ## Tests\n
 ${response.test}\n
 ## Questions\n
-${response.githubusername}\n`,
+Please contact me below for further questions:\n
+Github username: [${response.githubusername}](https://github.com/${response.githubusername})\n
+Email: ${response.email}\n`,
             (err) => err ? console.error(err) : console.log('Readme Generated!'))
     :
         fs.writeFile('GeneratedREADME.md',
@@ -102,7 +104,9 @@ ${response.contribute}\n
 ## Tests\n
 ${response.test}\n
 ## Questions\n
-${response.test}\n`,
+Please contact me below for further questions:\n
+Github username: [${response.githubusername}](https://github.com/${response.githubusername})\n
+Email: ${response.email}\n`,
             (err) => err ? console.error(err) : console.log('Readme Generated!'))
     );
 
