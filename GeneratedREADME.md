@@ -8,13 +8,13 @@ t
 
 ## Table of Contents
 
-- [Installation](./GeneratedREADME.md##installation)
+- [Installation](./GeneratedREADME.md##-installation)
 
 - Usage
 
 - License
 
-- [Contributing](./GeneratedREADME.md##contributing)
+- [Contributing](./GeneratedREADME.md##-contributing)
 
 - Tests
 
