@@ -33,7 +33,7 @@ inquirer
         },
         {
             type: 'checkbox',
-            message: 'What type of license would you like the project to have applied?',
+            message: 'What type of license would you like the project to have applied? (Pick one)',
             choices: ['Apache2.0', 'GPLv2', 'GPLv3', 'MIT', 'ISC'],
             name: 'license'
         },
@@ -66,12 +66,12 @@ inquirer
 ## Description\n
 ${response.description}\n
 ## Table of Contents\n
-- [Installation](./proREADME.md#installation)\n
-- [Usage](./proREADME.md#usage)\n
-- [License](./proREADME.md#license)\n
-- [Contributing](./proREADME.md#contributing)\n
-- [Tests](./proREADME.md#tests)\n
-- [Questions](./proREADME.md#questions)\n
+- [Installation](#installation)\n
+- [Usage](#usage)\n
+- [License](#license)\n
+- [Contributing](#contributing)\n
+- [Tests](#tests)\n
+- [Questions](#questions)\n
 ## Installation\n
 ${response.installation}\n
 ## Usage\n

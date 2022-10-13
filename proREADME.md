@@ -1,10 +1,10 @@
 # test
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![License: Apache2.0,MIT](https://img.shields.io/badge/License-Apache2.0,MIT-blue.svg)
 
 ## Description
 
-home
+to write readme
 
 ## Table of Contents
 
@@ -22,28 +22,28 @@ home
 
 ## Installation
 
-node.js
+install
 
 ## Usage
 
-use in terminal with node
+usage
 
 ## License
 
-Licensed under the MIT license.
+Licensed under the Apache2.0,MIT license.
 
 ## Contributing
 
-cool
+To contribute
 
 ## Tests
 
-chip
+test
 
 ## Questions
 
 Please contact me below for further questions:
 
-Github username: [lonely](https://github.com/lonely)
+Github username: [jump](https://github.com/jump)
 
 Email: jump@gmail.com
