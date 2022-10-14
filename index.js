@@ -26,7 +26,7 @@ const questions = [
         name: 'usage'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'What type of license would you like the project to have applied? (Pick one)',
         choices: ['Apache2.0', 'GPLv2', 'GPLv3', 'MIT', 'ISC'],
         name: 'license'
@@ -55,13 +55,14 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+// fileName, data
+function writeToFile() {
     inquirer
     .prompt(questions)
     .then((response) => {
         const readmeGenerate = generateMarkdown(response);
 
-        fs.writeFile(`${fileName}`+'.md', readmeGenerate, (err) => err ? console.error(err) : console.log('README Generated!'))
+        fs.writeFile('./output/README.md', readmeGenerate, (err) => err ? console.log('Error: Please try again.') : console.log('README Generated!'))
     });
  }
 
@@ -72,3 +73,11 @@ function init() {
 
 // Function call to initialize app
 init();
+
+// inquirer
+// .prompt(questions)
+// .then((response) => {
+//     const readmeGenerate = generateMarkdown(response);
+
+//     fs.writeFile('./output/README.md', readmeGenerate, (err) => err ? console.log('Error: Please try again.') : console.log('README Generated!'))
+// });
