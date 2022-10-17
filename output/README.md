@@ -20,7 +20,7 @@
   ## Tests
   y
   ## Questions
-  Please contact me below for further questions:
-  Github username: [u](https://github.com/u)
+  Please contact me below for further questions:  
+  Github username: [u](https://github.com/u)  
   Email: i
 
