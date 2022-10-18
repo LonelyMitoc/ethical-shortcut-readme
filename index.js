@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'list',
         message: 'What type of license would you like the project to have applied? (Pick one)',
-        choices: ['Apache2.0', 'GPLv2', 'GPLv3', 'MIT', 'ISC'],
+        choices: ['Apache-2.0', 'BSD-3-Clause', 'BSD-2-Clause', 'GPL-2.0', 'GPL-3.0', 'LGPL-2.0', 'LGPL-2.1', 'LGPL-3.0', 'MIT', 'MPL-2.0', 'CDDL-1.0', 'EPL-2.0', 'ISC', 'n/a'],
         name: 'license'
     },
     {

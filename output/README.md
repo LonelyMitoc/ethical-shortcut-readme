@@ -1,7 +1,9 @@
-# q
-  ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+# t
+
+  
+
   ## Description
-  w
+  t
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -10,17 +12,17 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  e
+  t
   ## Usage
-  r
+  t
   ## License
-  Licensed under the MIT license.
+  No applicable license for this project.
   ## Contributing
   t
   ## Tests
-  y
+  t
   ## Questions
   Please contact me below for further questions:  
-  Github username: [u](https://github.com/u)  
-  Email: i
+  Github username: [t](https://github.com/t)  
+  Email: t
 
