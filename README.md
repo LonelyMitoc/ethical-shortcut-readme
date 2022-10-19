@@ -30,7 +30,7 @@ Example of the input and the README that is generated:
 
 :warning: First, you will need to have installed the latest stable version of **node.js**.
 
-Then, you will need to go through the **npm initialization** (include "y" in order to skip through the prompts).
+Then, you will need to download this repository and go through the **npm initialization** (include "y" in order to skip through the prompts).
 
 ```
 npm init y
