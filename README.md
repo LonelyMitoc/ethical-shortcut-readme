@@ -8,9 +8,10 @@ Here we have a javascript program using node.js that will generate a professiona
 
 As stated above, we used node.js to use javascript outside of the browser and in our terminals.
 
-The coding was straight-forward except for the new use of the backhash that posed a small difficulty in using them in the correct context. In the future, I would like impliment more customization to the generated README (such as having code snippets, adding text colors, sourcing images of the project, having the option to choose the color of the license badge, option to add more sections with y/n prompts).
+The coding was straight-forward except for the new use of the backhash that posed a small difficulty in using them in the correct context. In the future, I would like impliment more customization to the generated README (such as having code snippets, adding text colors, sourcing images of the project, having the option to choose the color of the license badge, option to add more sections with y/n prompts, add more badges such as technology, social media, blog, etc.).
 
-Example of the input and the REAME that is generated:
+Example of the input and the README that is generated:
+
 ![terminal screenshot showing input](./assets/images/terminal-screenshot.jpg)
 ![example of generaged README in vscode previewer](./assets/images/sample-readme.jpg)
 
@@ -28,15 +29,21 @@ Example of the input and the REAME that is generated:
 
 Then, you will need to go through the **npm initialization** (include "y" in order to skip through the prompts).
 
-`npm init y`
+```
+npm init y
+```
 
 Then install the necessary **inquirer v8.2.4 package**.
 
-`npm install inquirer@8.2.4`
+```
+npm install inquirer@8.2.4
+```
 
 Once the inquirer is installed and you see that the **package-lock.json** is in the folder, you can run the program by changing directory (cd) in the terminal to this program and run **node index.js**.
 
-`node index.js`
+```
+node index.js
+```
 
 Then answer all the prompts to generate a README!
 
@@ -57,6 +64,12 @@ Contriubution inquiries can be sent through the Github or the email in the quest
 
 ## Tests
 Tests were only conducted through primative trial and error with running the program over and over again with different variables and inputs.
+
+## Credits
+- [MDN Wed Docs](https://developer.mozilla.org/en-US/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Shields.io](https://shields.io/)
+- [Github Gist: rxaviers](https://gist.github.com/rxaviers/7360908)
 
 ## Questions
 Please contact me below for further questions:
