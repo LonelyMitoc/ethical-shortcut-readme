@@ -1,6 +1,7 @@
 // a function that returns a license badge and link based on which license is passed in
-// If there is no license, return an empty string
+// If there is no license, return no badges
 function renderLicenseBadge(data) {
+  // license badge information and link for each (each with unique colors)
   const licenseInfo = [
     {
       license: 'Apache-2.0',
@@ -69,6 +70,7 @@ function renderLicenseBadge(data) {
     }
   ]
 
+  // switch function to go through each option to show the correct badge which are linked
   switch (data) {
     case 'Apache-2.0' :
       response = `[![${licenseInfo[0].license}]${licenseInfo[0].badge}]${licenseInfo[0].link}`;
@@ -129,6 +131,7 @@ function renderLicenseBadge(data) {
   return response;
 };
 
+// function to render the licenase section
 function renderLicenseSection(data) {
   if(data !== 'n/a') {
     return `Licensed under the ${data} license.`
