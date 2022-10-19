@@ -10,18 +10,21 @@ As stated above, we used node.js to use javascript outside of the browser and in
 
 The coding was straight-forward except for the new use of the backhash that posed a small difficulty in using them in the correct context. In the future, I would like impliment more customization to the generated README (such as having code snippets, adding text colors, sourcing images of the project, having the option to choose the color of the license badge, option to add more sections with y/n prompts, add more badges such as technology, social media, blog, etc.).
 
-Example of the input and the README that is generated:
-
-![terminal screenshot showing input](./assets/images/terminal-screenshot.jpg)
-![example of generaged README in vscode previewer](./assets/images/sample-readme.jpg)
-
 ## Table of Contents
+- [Example](#example)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
+## Example
+
+Example of the input and the README that is generated:
+
+![terminal screenshot showing input](./assets/images/terminal-screenshot.jpg)
+![example of generaged README in vscode previewer](./assets/images/sample-readme.jpg)
 
 ## Installation
 
