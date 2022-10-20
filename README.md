@@ -32,6 +32,8 @@ Example of the input and the README that is generated:
 
 Then, you will need to download this repository and go through the **npm initialization** (include "y" in order to skip through the prompts).
 
+(do this if the **package.json** & **package.-lock.json** is not in the repository.)
+
 ```
 npm init y
 ```
