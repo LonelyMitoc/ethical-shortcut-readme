@@ -8,7 +8,7 @@ Here we have a javascript program using node.js that will generate a professiona
 
 As stated above, we used node.js to use javascript outside of the browser and in our terminals.
 
-The coding was straight-forward except for the new use of the backhash that posed a small difficulty in using them in the correct context. In the future, I would like impliment more customization to the generated README (such as having code snippets, adding text colors, sourcing images of the project, having the option to choose the color of the license badge, option to add more sections with y/n prompts, add more badges such as technology, social media, blog, etc.).
+The coding was straight-forward except for the new use of the back-hash that posed a small difficulty in using them in the correct context. In the future, I would like to implement more customization to the generated README (such as having code snippets, adding text colors, sourcing images of the project, having the option to choose the color of the license badge, option to add more sections with y/n prompts, add more badges such as technology, social media, blog, etc.).
 
 ## Table of Contents
 - [Example](#example)
@@ -21,10 +21,12 @@ The coding was straight-forward except for the new use of the backhash that pose
 
 ## Example
 
+[Demonstration](https://watch.screencastify.com/v/Wzef1bto8k3YBTBjlrpK)
+
 Example of the input and the README that is generated:
 
 ![terminal screenshot showing input](./assets/images/terminal-screenshot.jpg)
-![example of generaged README in vscode previewer](./assets/images/sample-readme.jpg)
+![example of generated README in vscode previewer](./assets/images/sample-readme.jpg)
 
 ## Installation
 
@@ -65,10 +67,10 @@ Currently, the sections will be left blank if there is no input but in the futur
 Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contributing
-Contriubution inquiries can be sent through the Github or the email in the question section (although, I work full time with family obligations so replies may be slow). I am open to all suggestions.
+Contribution inquiries can be sent through the Github or the email in the question section (although, I work full time with family obligations so replies may be slow). I am open to all suggestions.
 
 ## Tests
-Tests were only conducted through primative trial and error with running the program over and over again with different variables and inputs.
+Tests were only conducted through primitive trial and error with running the program over and over again with different variables and inputs.
 
 ## Credits
 - [MDN Wed Docs](https://developer.mozilla.org/en-US/)
